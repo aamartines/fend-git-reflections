@@ -1,0 +1,9 @@
+When you initialize a repository, git begins tracking changes to the
+directory within the directory's metadata in a hidden folder. You need to
+initialize repositories if you want to use the version control features
+of git.
+
+The staging area isn't a place where your files are saved locally, and it
+isn't the place where all commits are held. It's a bit of a purgatory where you
+place files before committing them to the repository. It offers you a chance
+to make sure you want to commit them together before officially doing so.
