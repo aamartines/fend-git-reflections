@@ -1,0 +1,40 @@
+Viewing the two different files let me pinpoint things that had changed. If I
+couldn't do that, I'd need to scroll through the whole document, carefully
+looking for differences or errors. I'd probably miss it in the end, especially
+in a 1000 line document. Having the lines that have been changed between two
+versions of a file laid out clearly for me saved me from making a dumb error.
+
+Having easy access to the entire history of a file makes it easy to find content
+you deleted, thinking you didn't need it. This could be especially helpful
+with indecisive clients, who decide to eliminate a feature or change it, then
+decide they like the old one better. I know sometimes I'll be my own indecisive
+client too.
+
+Manually choosing when to create a commit is great for when you want to have a
+logical history of the changes you made to a project over a period of time.
+However, if you're working on an old or unreliable machine, or if you're a
+forgetful person, using a system that doesn't autosave could get you into
+trouble.
+
+When you write a traditional document, like a resume or an essay, it's unlikely
+that revisions of that document will affect other your other documents. They
+tend to stand on their own. When you're working with code instead, it's much
+more likely that you have several files that are all reliant on each other, so
+seeing changes to interrelated files is valuable.
+
+You can use git log to show all of the commits to a repository and git diff to
+compare two commits. However, the IDs are quite long and copy and pasting
+is a total disaster. Also, the commits list gets quite long, so you have to
+scroll forever. So this system makes me want to pull my hair out. It's
+gruesome and inefficient. I have trouble believing any self-respecting web
+developer ACTUALLY does this through the command line rather than using
+something like Sourcetree.
+
+Using version control would make you more confident to make changes because
+you know you can always revert to the previous version, before you broke
+everything. There's no chance of irreparably damaging your code.
+
+Next, I'd like to try to use Git to collaborate on a project designing a
+WordPress website with a colleague. I'm planning to use Git to create
+branches so I don't mess with his stuff when I'm playing around in the theme
+code, as well as to merge if I do something cool.
