@@ -1,13 +1,18 @@
+**What happens when you initialize a repository? Why do you need to do it?**
 When you initialize a repository, git begins tracking changes to the
 directory within the directory's metadata in a hidden folder. You need to
 initialize repositories if you want to use the version control features
 of git.
 
+**How is the staging area different from the working directory and the
+repository? What value do you think it offers?**
 The staging area isn't a place where your files are saved locally, and it
 isn't the place where all commits are held. It's a bit of a purgatory where you
 place files before committing them to the repository. It offers you a chance
 to make sure you want to commit them together before officially doing so.
 
+**How can you use the staging area to make sure you have one commit per logical
+change?**
 The staging area helps you make sure you only have one commit per logical
 change because it allows you to commit multiple files at the same time. So,
 if you change the HTML and CSS files for a website to add a single feature, you
