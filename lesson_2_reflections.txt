@@ -7,3 +7,8 @@ The staging area isn't a place where your files are saved locally, and it
 isn't the place where all commits are held. It's a bit of a purgatory where you
 place files before committing them to the repository. It offers you a chance
 to make sure you want to commit them together before officially doing so.
+
+The staging area helps you make sure you only have one commit per logical
+change because it allows you to commit multiple files at the same time. So,
+if you change the HTML and CSS files for a website to add a single feature, you
+can add both of those files to the same commit.
