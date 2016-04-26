@@ -17,3 +17,12 @@ The staging area helps you make sure you only have one commit per logical
 change because it allows you to commit multiple files at the same time. So,
 if you change the HTML and CSS files for a website to add a single feature, you
 can add both of those files to the same commit.
+
+**What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?**
+Branches are helpful, for example, when building a WordPress theme. Perhaps
+you want to style that theme differently for a new client. You could add a
+branch to the theme's original repo, which saves you from having to start a
+new repo for a small change. You might also add a new branch if you were
+changing the homepage experimentally, say to add a slider, and weren't sure
+you wanted to implement that change.
