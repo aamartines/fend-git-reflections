@@ -32,3 +32,11 @@ Diagrams help me visualize the various branches in a git repo because I can see
 the places where the code splits off in a new direction - kind of like a
 highway. I'm pretty sure there are some Git GUIs that do this for you, so
 I'm looking forward to making this even more foolproof.
+
+**What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?**
+When two branches are merged together, they effectively become a single branch.
+Each separate commit it still stored in the resulting branch, as if the two
+branches never existed separately. In the diagram, it's like two roads
+diverging then converging, which is accurate to the way the project was coded,
+even though they're just a single branch now.
