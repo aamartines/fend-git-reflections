@@ -40,3 +40,11 @@ Each separate commit it still stored in the resulting branch, as if the two
 branches never existed separately. In the diagram, it's like two roads
 diverging then converging, which is accurate to the way the project was coded,
 even though they're just a single branch now.
+
+**What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?**
+Git's automatic merges are great because they save you time - you don't have to
+hunt for differences in two branches of your code to combine them into one file.
+The difficulty comes when you've significantly changed a structure in your code
+such that automatic merging becomes complicated, or when git simply isn't
+smart enough to know how to resolve something simple.
