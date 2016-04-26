@@ -26,3 +26,9 @@ branch to the theme's original repo, which saves you from having to start a
 new repo for a small change. You might also add a new branch if you were
 changing the homepage experimentally, say to add a slider, and weren't sure
 you wanted to implement that change.
+
+**How do the diagrams help you visualize the branch structure?**
+Diagrams help me visualize the various branches in a git repo because I can see
+the places where the code splits off in a new direction - kind of like a
+highway. I'm pretty sure there are some Git GUIs that do this for you, so
+I'm looking forward to making this even more foolproof.
