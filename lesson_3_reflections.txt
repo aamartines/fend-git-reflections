@@ -9,3 +9,16 @@ automatically stay up-to-date with your remote repository?**
 With a public repository, it would be kind of embarrassing if you were screwing
 around in the code (or writing lazy code) and had your changes committed to the
 remote repo. Someone might stumble across them when you don't want them to.
+
+**Describe the differences between forks, clones, and branches. When would you
+use one instead of another?**
+Forks allow you to copy a remote repo but maintain a reference back to the
+original. They're useful when you want to copy a repo someone else has created
+but want to make sure you give them credit for the original (because they're
+awesome and you like their work), and also when you don't have permission to
+change an existing repo but want to add to it. Clones are useful for copying
+existing repos that aren't on github. They just let you copy a repo to your
+local machine. For example, you could use clone to copy a remote repo to your
+local machine. Branches are a way to add a major change to an existing repo. For
+example, if you're experimenting with a feature and aren't sure you'll want to
+include it in the final project, you might make a branch.
