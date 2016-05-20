@@ -22,3 +22,12 @@ local machine. For example, you could use clone to copy a remote repo to your
 local machine. Branches are a way to add a major change to an existing repo. For
 example, if you're experimenting with a feature and aren't sure you'll want to
 include it in the final project, you might make a branch.
+
+**What is the benefit of having a copy of the last known state of the remote
+stored locally?**
+Having a copy of the last known state of the remote stored locally makes it
+easier to work offline. I have an hour-long commute on public transit to my
+day job, so if I'm working on a project, especially a collaborative one, I can
+quickly get a copy of the last known state of my project before I head out the
+door to hop on the bus, then I can review changes to the codebase and avoid
+duplicating work before I start working on my own.
