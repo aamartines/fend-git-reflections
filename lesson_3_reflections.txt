@@ -31,3 +31,18 @@ day job, so if I'm working on a project, especially a collaborative one, I can
 quickly get a copy of the last known state of my project before I head out the
 door to hop on the bus, then I can review changes to the codebase and avoid
 duplicating work before I start working on my own.
+
+**How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?**
+Without Git and GitHub, I'd collaborate by storing my files on a shared server
+like Google Drive and sharing that space with colleagues. Managing changes to
+the codebase would be a challenge - we'd either need to:
+1. let the other people know when we're working on a specific file, so they
+don't also work on it at the same time, or
+2. use Google Docs as a text editor, which isn't great because it doesn't have
+useful tools like colors and auto-complete. Maybe there's an add-on for that
+though?
+We'd also need to manually keep track of changes and comment on new additions.
+One thing that would be notably easier would be getting others onto the
+platform. Git and github are a bit complicated, and the names of concepts and
+buttons are a bit heavy on programmer-lingo. It's not the most friendly system.
