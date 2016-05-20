@@ -46,3 +46,13 @@ We'd also need to manually keep track of changes and comment on new additions.
 One thing that would be notably easier would be getting others onto the
 platform. Git and github are a bit complicated, and the names of concepts and
 buttons are a bit heavy on programmer-lingo. It's not the most friendly system.
+
+**When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?**
+It's helpful to work in a separate branch if you're making a large addition or
+change that your collaborators may not want to integrate into the overall
+project or something experimental. It's tedious, but for a project that may
+have many commits, it's actually not that much of an increase in time/labor and
+it helps make sure your master branch is always in working order. It would be
+easier to work directly in master if you're making a small bug fix or fixing
+a typo.
